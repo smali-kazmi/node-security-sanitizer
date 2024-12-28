@@ -1,0 +1,41 @@
+{
+  "name": "security-sanitizer",
+  "version": "1.0.0",
+  "description": "A Node.js middleware that sanitizes request payloads to prevent XSS and JavaScript injection attacks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "security",
+    "middleware",
+    "sanitizer",
+    "xss",
+    "express",
+    "nodejs",
+    "injection",
+    "protection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smali-kazmi/node-security-sanitizer.git"
+  },
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smali-kazmi/node-security-sanitizer/issues"
+  },
+  "homepage": "https://github.com/smali-kazmi/node-security-sanitizer#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  },
+  "peerDependencies": {
+    "express": ">=4.0.0"
+  }
+}
